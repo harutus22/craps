@@ -58,8 +58,3 @@ while(True):
 	print_roll_result(random_roll)
 	check_result(result)
 	
-
-	
-
-	
-
