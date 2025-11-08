@@ -46,15 +46,13 @@ def check_result(result: int):
 		if goal_number == 0:
 			print("Now your goal number is", result)
 			goal_number = result
-	
-first_roll = random_roll_for_pair()
-print_roll_result(first_roll)
-result = dice_sum(first_roll)
-check_result(result)
-
-while(True):
-	random_roll = random_roll_for_pair()
-	result = dice_sum(random_roll)
-	print_roll_result(random_roll)
+			
+def play_roll_dice():
+	first_roll = random_roll_for_pair()
+	print_roll_result(first_roll)
+	result = dice_sum(first_roll)
 	check_result(result)
+	
+while(True):
+	play_roll_dice()
 	
