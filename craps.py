@@ -1,6 +1,5 @@
 import random
 
-is_game_over = False
 turning_point = 7
 game_start_winner = 11
 loosing_numbers = (2, 3, 12)
