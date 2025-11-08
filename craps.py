@@ -27,7 +27,7 @@ def check_for_win(result: int):
 		return False
 		
 def check_for_lose(result: int):
-	if goal_number == 0 and (result == loosing_numbers[0] or result == loosing_numbers[1] or result == loosing_numbers[2]):
+	if goal_number == 0 and result in loosing_numbers:
 		return True 
 	elif goal_number > 0 and result == turning_point:
 		return True
